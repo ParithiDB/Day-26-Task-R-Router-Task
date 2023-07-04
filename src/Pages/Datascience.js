@@ -1,5 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ds1 from './Images/ds1.jpeg';
+import ds2 from './Images/ds2.jpeg';
+import ds3 from './Images/ds3.jpeg';
+import ds4 from './Images/ds4.jpeg';
+import ds5 from './Images/ds5.jpeg';
+import ds6 from './Images/ds6.jpeg';
 
 export default function Datascience() {
 
@@ -10,7 +16,7 @@ export default function Datascience() {
     <div className="card h-100">
     <div>
     <Link className="nav-link" to="https://www.guvi.in/blog/vmware-vs-virtualbox/"></Link>
-      <img src="https://www.guvi.in/blog/wp-content/uploads/2023/06/VMWARE-Vs-VIRTUAL-BOX-1536x864.png" className="card-img-top" alt="..." />
+      <img src={ds1} className="card-img-top" alt="..." />
     </div>
       <div className="card-body">
         <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/vmware-vs-virtualbox/">VMware vs VirtualBox: Picking the Right Hypervisor for Virtualisation.</Link></p>
@@ -26,7 +32,7 @@ export default function Datascience() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/mistakes-to-avoid-when-you-begin-a-data-science-career/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2023/05/Beginner-mistakes-in-data-science-career.webp" className="card-img-top" alt="..." />
+  <img src={ds2} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/mistakes-to-avoid-when-you-begin-a-data-science-career/">8 Mistakes To Avoid When You Begin a Data Science Career</Link></p>
@@ -42,7 +48,7 @@ export default function Datascience() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/data-science-vs-machine-learning-must-know-facts/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2023/04/image-5.png" className="card-img-top" alt="..." />
+  <img src={ds3} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/data-science-vs-machine-learning-must-know-facts/">Data Science vs. Machine Learning: What every elite coder needs to know</Link></p>
@@ -61,7 +67,7 @@ export default function Datascience() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/how-to-become-data-scientist-after-mechanical-engineering/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2023/01/paper-analysis-2-1536x1024.jpg" className="card-img-top" alt="..." />
+  <img src={ds4} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/how-to-become-data-scientist-after-mechanical-engineering/">How to become a Data Scientist after Mechanical Engineering?</Link></p>
@@ -77,7 +83,7 @@ export default function Datascience() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/how-to-become-a-top-data-scientist/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2022/12/image-15.png" className="card-img-top" alt="..." />
+  <img src={ds5} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/how-to-become-a-top-data-scientist/">A Profound Data Scientist’s Career Path </Link></p>
@@ -93,7 +99,7 @@ export default function Datascience() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/entry-level-data-scientist-make-at-maang/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2023/01/maang-unit-14-1-1024x266-1.png" className="card-img-top" alt="..." />
+  <img src={ds6} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/entry-level-data-scientist-make-at-maang/">How much does an Entry-level Data Scientist make at MAANG Company? (Formerly ‘FAANG’)</Link></p>

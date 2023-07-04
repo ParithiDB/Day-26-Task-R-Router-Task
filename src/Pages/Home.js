@@ -1,5 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import HomeImage1 from "./Images/HomeImage1.jpeg";
+import HomeImage2 from "./Images/HomeImage2.jpeg";
+import HomeImage3 from "./Images/HomeImage3.jpeg";
+import HomeImage4 from "./Images/HomeImage4.jpeg";
+import HomeImage5 from "./Images/HomeImage5.jpeg";
+import HomeImage6 from "./Images/HomeImage6.jpeg";
+
 
 export default function Home() {
 
@@ -10,7 +17,7 @@ export default function Home() {
     <div className="card h-100">
     <div>
     <Link className="nav-link" to="https://www.guvi.in/blog/unique-project-ideas-for-college-students/"></Link>
-      <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" className="card-img-top" alt="..." />
+      <img src={HomeImage1} className="card-img-top" alt="..." />
     </div>
       <div className="card-body">
         <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/unique-project-ideas-for-college-students/">Top 10 Unique Project Ideas for College Students</Link></p>
@@ -26,7 +33,7 @@ export default function Home() {
     <div className="card h-100">
     <div>
     <Link className="nav-link" to="https://www.guvi.in/blog/graphic-designer-vs-ui-ux-designer/"></Link>
-      <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" className="card-img-top" alt="..." />
+      <img src={HomeImage2} className="card-img-top" alt="..." />
     </div>
       <div className="card-body">
         <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/graphic-designer-vs-ui-ux-designer/">Graphic Designer vs. UI/UX Designer: Key Differences You Should Know</Link></p>
@@ -42,7 +49,7 @@ export default function Home() {
     <div className="card h-100">
     <div>
     <Link className="nav-link" to="https://www.guvi.in/blog/machine-learning-vs-deep-learning/"></Link>
-      <img src="https://www.guvi.in/blog/wp-content/uploads/2023/06/ai-vs-machine-learning.jpeg" className="card-img-top" alt="..." />
+      <img src={HomeImage3} className="card-img-top" alt="..." />
     </div>
       <div className="card-body">
         <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/machine-learning-vs-deep-learning/">Machine Learning Vs Deep Learning: A Layman’s Guide to AI in Easy Words</Link></p>
@@ -61,7 +68,7 @@ export default function Home() {
     <div className="card h-100">
     <div>
     <Link className="nav-link" to="https://www.guvi.in/blog/hire-machine-learning-engineers-with-ease/"></Link>
-      <img src="https://www.guvi.in/blog/wp-content/uploads/2023/06/Hiring-ML-Engg.png" className="card-img-top" alt="..." />
+      <img src={HomeImage4} className="card-img-top" alt="..." />
     </div>
       <div className="card-body">
         <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/hire-machine-learning-engineers-with-ease/">Hire Machine Learning Engineers with Ease | A Complete Guide</Link></p>
@@ -77,7 +84,7 @@ export default function Home() {
     <div className="card h-100">
     <div>
     <Link className="nav-link" to="https://www.guvi.in/blog/what-is-production-management/"></Link>
-      <img src="https://www.guvi.in/blog/wp-content/uploads/2023/06/what-is-production-management.jpg" className="card-img-top" alt="..." />
+      <img src={HomeImage5} className="card-img-top" alt="..." />
     </div>
       <div className="card-body">
         <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/what-is-production-management/">What is Production Management | The Ultimate Guide</Link></p>
@@ -93,7 +100,7 @@ export default function Home() {
     <div className="card h-100">
     <div>
     <Link className="nav-link" to="https://www.guvi.in/blog/vmware-vs-virtualbox/"></Link>
-      <img src="https://www.guvi.in/blog/wp-content/uploads/2023/06/VMWARE-Vs-VIRTUAL-BOX-1536x864.png" className="card-img-top" alt="..." />
+      <img src={HomeImage6} className="card-img-top" alt="..." />
     </div>
       <div className="card-body">
         <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/vmware-vs-virtualbox/">VMware vs VirtualBox: Picking the Right Hypervisor for Virtualisation.</Link></p>

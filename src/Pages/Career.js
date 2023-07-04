@@ -1,5 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import c1 from './Images/c1.jpeg';
+import c2 from './Images/c2.jpeg';
+import c3 from './Images/c3.jpeg';
+import c4 from './Images/c4.jpeg';
+import c5 from './Images/c5.jpeg';
+import c6 from './Images/c6.jpeg';
 
 export default function Career() {
 
@@ -10,7 +16,7 @@ export default function Career() {
     <div className="card h-100">
     <div>
     <Link className="nav-link" to="https://www.guvi.in/blog/graphic-designer-vs-ui-ux-designer/"></Link>
-      <img src="https://www.guvi.in/blog/wp-content/uploads/2023/06/UIUX_GD.jpg" className="card-img-top" alt="..." />
+      <img src={c1} className="card-img-top" alt="..." />
     </div>
       <div className="card-body">
         <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/graphic-designer-vs-ui-ux-designer/">Graphic Designer vs. UI/UX Designer: Key Differences You Should Know</Link></p>
@@ -26,7 +32,7 @@ export default function Career() {
     <div className="card h-100">
     <div>
     <Link className="nav-link" to="https://www.guvi.in/blog/what-is-production-management/"></Link>
-      <img src="https://www.guvi.in/blog/wp-content/uploads/2023/06/what-is-production-management.jpg" className="card-img-top" alt="..." />
+      <img src={c2} className="card-img-top" alt="..." />
     </div>
       <div className="card-body">
         <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/what-is-production-management/">What is Production Management | The Ultimate Guide</Link></p>
@@ -42,7 +48,7 @@ export default function Career() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/career-options-in-india/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2023/06/top-career-options-in-india-1536x864.jpg" className="card-img-top" alt="..." />
+  <img src={c3} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/career-options-in-india/">Top Career Options in India in 2023
@@ -63,7 +69,7 @@ export default function Career() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/is-aws-certification-worth/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2023/06/AWS.jpg" className="card-img-top" alt="..." />
+  <img src={c4} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/is-aws-certification-worth/">Is AWS Certification Worth It? | Best AWS Certifications 2023
@@ -81,7 +87,7 @@ export default function Career() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/what-is-tcs-nqt/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2023/06/TCS-NQT-EXAM-2023.jpg" className="card-img-top" alt="..." />
+  <img src={c5} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/what-is-tcs-nqt/">What is TCS NQT | Everything You Need to Know
@@ -99,7 +105,7 @@ export default function Career() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/how-to-land-a-machine-learning-internship/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2023/06/machine-learning-cover-internship.png" className="card-img-top" alt="..." />
+  <img src={c6} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/how-to-land-a-machine-learning-internship/">7 Powerful Steps to Land a Machine Learning Internship

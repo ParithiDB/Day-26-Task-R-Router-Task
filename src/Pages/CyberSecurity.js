@@ -1,5 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import cs1 from './Images/cs1.jpeg';
+import cs2 from './Images/cs2.gif';
+import cs3 from './Images/cs3.jpeg';
+import cs4 from './Images/cs4.jpeg';
+import cs5 from './Images/cs5.gif';
+import cs6 from './Images/cs6.jpeg';
+
 
 export default function Cybersecurity() {
 
@@ -10,7 +17,7 @@ export default function Cybersecurity() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/difference-between-cybersecurity-and-ethical-hacking/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-1536x864.png" className="card-img-top" alt="..." />
+  <img src={cs1} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/difference-between-cybersecurity-and-ethical-hacking/">Cybersecurity Vs Ethical Hacking: Top 10 Differences</Link></p>
@@ -26,7 +33,7 @@ export default function Cybersecurity() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/what-is-cybersecurity/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2022/12/cybersecuity-.gif" className="card-img-top" alt="..." />
+  <img src={cs2} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/what-is-cybersecurity/">What is Cybersecurity? Importance and its uses & the growing challenges in 2023!</Link></p>
@@ -42,7 +49,7 @@ export default function Cybersecurity() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/best-ethical-hacking-books/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2022/11/Blue-Purple-Futuristic-Virus-Hacks-Youtube-Thumbnail.png" className="card-img-top" alt="..." />
+  <img src={cs3} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/best-ethical-hacking-books/">Top 10 Ethical Hacking Books for Beginner to Advanced</Link></p>
@@ -61,7 +68,7 @@ export default function Cybersecurity() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/types-of-cybersecurity/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2022/11/Teal-Illustration-Digital-Business-Blog-Banner-1-1536x864.png" className="card-img-top" alt="..." />
+  <img src={cs4} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/types-of-cybersecurity/">8 Different Types of Cybersecurity and Threats Involved
@@ -79,7 +86,7 @@ Cybersecurity refers to the protection of devices, processes, infrastructure, an
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/coding-for-cybersecurity/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2022/06/8bfd01c18be1b5059bc0d7770d9dabf1.gif" className="card-img-top" alt="..." />
+  <img src={cs5} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/coding-for-cybersecurity/">Is coding required for cybersecurity? If yes, how crucial is coding for cybersecurity?
@@ -97,7 +104,7 @@ Cybersecurity refers to the protection of devices, processes, infrastructure, an
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/cyber-security-attacks-in-real-life/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2022/06/Types-of-Cyber-Security-Attacks-and-How-to-Minimize-the-Impact-1536x480.jpg" className="card-img-top" alt="..." />
+  <img src={cs6} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/cyber-security-attacks-in-real-life/">Top 7 Cyber Security Attacks in Real Life

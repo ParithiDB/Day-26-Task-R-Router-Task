@@ -1,9 +1,10 @@
 import React from "react";
 import './header.css';
+import headerImage from '../../Pages/Images/Header.jpeg'
 
 export default function Header() {
 
     return (
-        <img className="pic" src="https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header-1536x236.png" alt="header" />
+        <img className="pic" src={headerImage} alt="header" />
     )
 }

@@ -1,5 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import fsd1 from './Images/fsd1.jpeg';
+import fsd2 from './Images/fsd2.jpeg';
+import fsd3 from './Images/fsd3.jpeg';
+import fsd4 from './Images/fsd4.jpeg';
+import fsd5 from './Images/fsd5.jpeg';
+import fsd6 from './Images/fsd6.jpeg';
 
 export default function Fullstack() {
 
@@ -10,7 +16,7 @@ export default function Fullstack() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/how-to-land-a-software-developer-internship/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2023/06/software-engineering-internships.png" className="card-img-top" alt="..." />
+  <img src={fsd1} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/how-to-land-a-software-developer-internship/">7 Powerful Steps to Land a Software Developer Internship</Link></p>
@@ -26,7 +32,7 @@ export default function Fullstack() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/hibernate-interview-questions/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2023/05/Screenshot-2023-05-09-at-4.13.14-AM.png" className="card-img-top" alt="..." />
+  <img src={fsd2} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/hibernate-interview-questions/">Top 26 Hibernate Interview Questions and Answers (2023)</Link></p>
@@ -42,7 +48,7 @@ export default function Fullstack() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/web-development-roadmap-for-beginners/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2023/03/1.jpg" className="card-img-top" alt="..." />
+  <img src={fsd3} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/web-development-roadmap-for-beginners/">Web Development Roadmap for Beginners 2023</Link></p>
@@ -61,7 +67,7 @@ export default function Fullstack() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/best-skills-for-web-development/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2023/03/skill-for-web-dev.jpg" className="card-img-top" alt="..." />
+  <img src={fsd4} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/best-skills-for-web-development/">10 Best Skills for Web Development</Link></p>
@@ -77,7 +83,7 @@ export default function Fullstack() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/top-backend-developer-skills-you-should-know/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2023/03/backend-skills.jpg" className="card-img-top" alt="..." />
+  <img src={fsd5} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/top-backend-developer-skills-you-should-know/">Top 7 Back-End Developer Skills You Should Know</Link></p>
@@ -93,7 +99,7 @@ export default function Fullstack() {
 <div className="card h-100">
 <div>
 <Link className="nav-link" to="https://www.guvi.in/blog/top-frontend-developer-skills-you-should-know/"></Link>
-  <img src="https://www.guvi.in/blog/wp-content/uploads/2023/03/skills.jpg" className="card-img-top" alt="..." />
+  <img src={fsd6} className="card-img-top" alt="..." />
 </div>
   <div className="card-body">
     <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/top-frontend-developer-skills-you-should-know/">Top 10 Front-End Developer Skills You Should Know</Link></p>
