@@ -26,7 +26,7 @@ export default function Home() {
     <div className="card h-100">
     <div>
     <Link className="nav-link" to="https://www.guvi.in/blog/graphic-designer-vs-ui-ux-designer/"></Link>
-      <img src="https://www.guvi.in/blog/wp-content/uploads/2023/06/UIUX_GD.jpg" className="card-img-top" alt="..." />
+      <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" className="card-img-top" alt="..." />
     </div>
       <div className="card-body">
         <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/graphic-designer-vs-ui-ux-designer/">Graphic Designer vs. UI/UX Designer: Key Differences You Should Know</Link></p>
