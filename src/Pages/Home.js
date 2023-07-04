@@ -10,7 +10,7 @@ export default function Home() {
     <div className="card h-100">
     <div>
     <Link className="nav-link" to="https://www.guvi.in/blog/unique-project-ideas-for-college-students/"></Link>
-      <img src="https://www.guvi.in/blog/wp-content/uploads/2023/06/feature-image-unique-project-ideas.jpg" className="card-img-top" alt="..." />
+      <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" className="card-img-top" alt="..." />
     </div>
       <div className="card-body">
         <p className="card-title"><Link className="nav-link" to="https://www.guvi.in/blog/unique-project-ideas-for-college-students/">Top 10 Unique Project Ideas for College Students</Link></p>
